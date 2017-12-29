@@ -1,0 +1,41 @@
+html, body {
+  height:100%;
+  color: black;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+}
+
+h3 {
+  font-size: 3.5vh;
+}
+
+.info {
+  text-align: center;
+  margin-top: 25vh;
+  padding-left: 10vw;
+  padding-right: 10vw;
+}
+
+#content {
+  text-align: left;
+}
+
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding-bottom: 30vh;
+  text-align: center;
+}
+
+#click, #tweet {
+  margin-right: 30px;
+  width: 80px;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
